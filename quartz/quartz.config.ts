@@ -23,32 +23,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Poppins",
+        body: "Quicksand",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fff9f0",        // page background: very light pastel yellow
+          lightgray: "#fff1c9",    // cards/backgrounds: soft yellow
+          gray: "#ffd6d6",         // borders, subtle elements: pastel pink
+          darkgray: "#ffb3b3",     // headings/subtitles: pink
+          dark: "#ff8f91",         // accent color: deeper pink
+          secondary: "#fff5b1",    // secondary elements: pastel yellow
+          tertiary: "#ffd1dc",     // tertiary elements: soft pink
+          highlight: "rgba(255, 223, 186, 0.15)",
+          textHighlight: "#ffde9e88",
         },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+        darkMode: {                // dummy fallback, not used
+          light: "#fff9f0",
+          lightgray: "#fff1c9",
+          gray: "#ffd6d6",
+          darkgray: "#ffb3b3",
+          dark: "#ff8f91",
+          secondary: "#fff5b1",
+          tertiary: "#ffd1dc",
+          highlight: "rgba(255, 223, 186, 0.15)",
+          textHighlight: "#ffde9e88",
         },
       },
     },
@@ -88,7 +88,6 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
     ],
   },
