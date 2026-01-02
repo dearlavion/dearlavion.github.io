@@ -20,8 +20,7 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
+      defaultMode: "lightMode", // <-- force light mode
       typography: {
         header: "Poppins",
         body: "Quicksand",
@@ -29,26 +28,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fff9f0",        // page background: very light pastel yellow
-          lightgray: "#fff1c9",    // cards/backgrounds: soft yellow
-          gray: "#ffd6d6",         // borders, subtle elements: pastel pink
-          darkgray: "#ffb3b3",     // headings/subtitles: pink
-          dark: "#ff8f91",         // accent color: deeper pink
-          secondary: "#fff5b1",    // secondary elements: pastel yellow
-          tertiary: "#ffd1dc",     // tertiary elements: soft pink
-          highlight: "rgba(255, 223, 186, 0.15)",
-          textHighlight: "#ffde9e88",
+          light: "#ffffff",       // page background
+          lightgray: "#f5f5f5",   // optional cards or subtle containers
+          gray: "#000000",         // borders / subtle lines
+          darkgray: "#ce5886",     // headers/subtitles
+          dark: "#ce5886",         // menu / accent links
+          secondary: "#000000",    // main text
+          tertiary: "#f5f5f5",     // tertiary elements / overlays
+          highlight: "rgba(206, 88, 134, 0.15)", // soft highlight overlay
+          textHighlight: "#ce588688",            // optional text highlight
         },
-        darkMode: {                // dummy fallback, not used
-          light: "#fff9f0",
-          lightgray: "#fff1c9",
-          gray: "#ffd6d6",
-          darkgray: "#ffb3b3",
-          dark: "#ff8f91",
-          secondary: "#fff5b1",
-          tertiary: "#ffd1dc",
-          highlight: "rgba(255, 223, 186, 0.15)",
-          textHighlight: "#ffde9e88",
+        darkMode: {                 // simple fallback if darkMode is enabled
+          light: "#ffffff",       // page background
+          lightgray: "#f5f5f5",   // optional cards or subtle containers
+          gray: "#000000",         // borders / subtle lines
+          darkgray: "#ce5886",     // headers/subtitles
+          dark: "#ce5886",         // menu / accent links
+          secondary: "#000000",    // main text
+          tertiary: "#f5f5f5",     // tertiary elements / overlays
+          highlight: "rgba(206, 88, 134, 0.15)", // soft highlight overlay
+          textHighlight: "#ce588688",            // optional text highlight
         },
       },
     },

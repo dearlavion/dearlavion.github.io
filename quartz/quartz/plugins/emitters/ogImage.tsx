@@ -55,7 +55,7 @@ async function generateSocialImage(
     fonts,
     loadAdditionalAsset: async (languageCode: string, segment: string) => {
       if (languageCode === "emoji") {
-        return await loadEmoji(getIconCode(segment))
+        return await loadEmoji(getIconCode(segment), segment)
       }
 
       return languageCode
@@ -63,6 +63,21 @@ async function generateSocialImage(
   })
 
   return sharp(Buffer.from(svg)).webp({ quality: 40 })
+}
+
+// map of codepoints to SVG/PNG assets
+export const emojiMap: Record<string, string> = {
+  "31-20e3": "1️⃣.svg",
+  "32-20e3": "2️⃣.svg",
+  // ... add other emojis you want to support
+}
+
+export function loadEmoji(codepoint: string, sourceSegment?: string) {
+  if (!emojiMap[codepoint]) {
+    console.warn(`[Emoji Warning] Missing codepoint: ${codepoint}. Source: ${sourceSegment ?? 'unknown'}`)
+    return null // prevent crash
+  }
+  return emojiMap[codepoint]
 }
 
 async function processOgImage(
