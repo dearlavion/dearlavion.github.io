@@ -21,9 +21,11 @@ Local Test:
 		git branch -D gh-pages 
 	
 	cd quartz/public
-	git checkout -b gh-pages
+	
 	git init
 	git remote add origin https://github.com/dearlavion/dearlavion.github.io.git
+	
+	git checkout -b gh-pages
 	git add .
 	git commit -m "Update site"
 	git push -f origin gh-pages --force
