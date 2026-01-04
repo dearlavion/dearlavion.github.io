@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Dear Lavion&#039;s Profile</title>
+      <link>https://dearlavion.github.io</link>
+      <description>Last 10 notes on Dear Lavion&#039;s Profile</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Year Plan</title>
+    <link>https://dearlavion.github.io/DearLavion/Year-Plan</link>
+    <guid>https://dearlavion.github.io/DearLavion/Year-Plan</guid>
+    <description><![CDATA[  MonthThemePurposeJanIntroducing Dear Lavion &amp; Pain PointsHook audience, show struggles travelers face, why your app existsFebWisher StoriesShowcase real or simulated Wisher pain points and wishesMarCopilot StoriesHighlight Copilots solving problems, empathy in actionAprCommunity ImpactShow comm... ]]></description>
+    <pubDate>Sun, 04 Jan 2026 15:56:54 GMT</pubDate>
+  </item><item>
+    <title>6. Java Collections Framework</title>
+    <link>https://dearlavion.github.io/General-Knowledge/Java/6.-Java-Collections-Framework</link>
+    <guid>https://dearlavion.github.io/General-Knowledge/Java/6.-Java-Collections-Framework</guid>
+    <description><![CDATA[ What “The Java Collections Framework is an interface-based architecture that provides optimized implementations of common data structures for storing and managing data. ]]></description>
+    <pubDate>Sun, 04 Jan 2026 15:56:54 GMT</pubDate>
+  </item><item>
+    <title>1. What is Functional Programming (FP)?</title>
+    <link>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/1.-What-is-Functional-Programming-(FP)</link>
+    <guid>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/1.-What-is-Functional-Programming-(FP)</guid>
+    <description><![CDATA[ “Functional programming is a style of programming where we treat functions as first-class citizens, avoid mutable state, and write code that focuses on what to do rather than how to do it.” “Treat functions as first-class citizens” Meaning: Functions can be passed as arguments, returned from other f... ]]></description>
+    <pubDate>Sun, 04 Jan 2026 15:56:54 GMT</pubDate>
+  </item><item>
+    <title>2. Functional Interfaces</title>
+    <link>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/2.-Functional-Interfaces</link>
+    <guid>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/2.-Functional-Interfaces</guid>
+    <description><![CDATA[ What Functional interfaces are interfaces with a single abstract method, which allows us to pass lambdas or method references. ]]></description>
+    <pubDate>Sun, 04 Jan 2026 15:56:54 GMT</pubDate>
+  </item><item>
+    <title>3. Streams</title>
+    <link>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/3.-Streams</link>
+    <guid>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/3.-Streams</guid>
+    <description><![CDATA[ Streams vs Collection “Collections store data. ]]></description>
+    <pubDate>Sun, 04 Jan 2026 15:56:54 GMT</pubDate>
+  </item><item>
+    <title>4. Streams - Intermediate Operations</title>
+    <link>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/4.-Streams---Intermediate-Operations</link>
+    <guid>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/4.-Streams---Intermediate-Operations</guid>
+    <description><![CDATA[  OperationDescriptionExamplefilterKeep elements that match a condition.filter(u -&gt; u.getAge() &gt; 25)mapTransform elements from one type to another.map(User::getName)flatMapFlatten nested structures (List&lt;List&lt;T&gt;&gt; → List&lt;T&gt;).flatMap(List::stream)distinctRemove duplicates.distin... ]]></description>
+    <pubDate>Sun, 04 Jan 2026 15:56:54 GMT</pubDate>
+  </item><item>
+    <title>5. Streams - Terminal Operations</title>
+    <link>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/5.-Streams---Terminal-Operations</link>
+    <guid>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/5.-Streams---Terminal-Operations</guid>
+    <description><![CDATA[ ✅ Interview-Friendly Script Terminal operations trigger the stream pipeline, producing results from all lazy intermediate operations. ]]></description>
+    <pubDate>Sun, 04 Jan 2026 15:56:54 GMT</pubDate>
+  </item><item>
+    <title>6. Streams - Sorting &amp; Comparators</title>
+    <link>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/6.-Streams---Sorting--and--Comparators</link>
+    <guid>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/6.-Streams---Sorting--and--Comparators</guid>
+    <description><![CDATA[ Comparable vs Comparator FeatureComparableComparatorPurposeNatural order of the classCustom order without changing classInterface methodcompareTo()compare(T o1, T o2)Stream usage.sorted() (uses natural order).sorted(Comparator.comparing(...))Modifying classYes, class must implement ComparableNo, cla... ]]></description>
+    <pubDate>Sun, 04 Jan 2026 15:56:54 GMT</pubDate>
+  </item><item>
+    <title>Study Plan</title>
+    <link>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/Study-Plan</link>
+    <guid>https://dearlavion.github.io/General-Knowledge/Java/7.-Functional-Programming/Study-Plan</guid>
+    <description><![CDATA[ Step 1: Understand Functional Programming Basics (1–2 days) Goal: Grasp functional programming concepts in Java. ]]></description>
+    <pubDate>Sun, 04 Jan 2026 15:56:54 GMT</pubDate>
+  </item><item>
+    <title>1. What is a Thread</title>
+    <link>https://dearlavion.github.io/General-Knowledge/Java/8.-Multithreading/1.-What-is-a-Thread</link>
+    <guid>https://dearlavion.github.io/General-Knowledge/Java/8.-Multithreading/1.-What-is-a-Thread</guid>
+    <description><![CDATA[ Thread “A thread is the smallest worker in a program that follows a sequence of instructions step by step, and a program can have multiple threads running different tasks concurrently.” ✅ Why: “Smallest worker” → defines thread simply “Sequence of instructions step by step” → explains path of execut... ]]></description>
+    <pubDate>Sun, 04 Jan 2026 15:56:54 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
